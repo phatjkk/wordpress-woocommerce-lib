@@ -1,14 +1,5 @@
 <?php
 
-/**
- * Plugin Name: Techipress DHL Shipping
- * Plugin URI: https://github.com/omukiguy/techiepress-dhl-shipping
- * Author: Techipress
- * Author URI: https://github.com/omukiguy/techiepress-dhl-shipping
- * Description: Techipress DHL Shipping plugin
- * Version: 0.0.1
- */
- 
  add_action( 'woocommerce_shipping_init', 'phatjk_shipping_init' );
  
  function phatjk_shipping_init() {
