@@ -9,7 +9,7 @@
             public function __construct() {
                 $this->id                 = 'ghtk_shipping'; // Id for your shipping method. Should be uunique.
 				$this->method_title       = __( 'Giao hàng tiết kiệm' );  // Title shown in admin
-				$this->method_description = __( 'Description of your Techiepress DHL Shipping' ); // Description shown in admin
+				$this->method_description = __( 'Description of your GHTK Shipping' ); // Description shown in admin
 
 				$this->enabled            = "yes"; // This can be added as an setting but for this example its forced enabled
 				$this->title              = "Giao hàng tiết kiệm"; // This can be added as an setting but for this example its forced.
